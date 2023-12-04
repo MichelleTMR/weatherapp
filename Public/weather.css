@@ -1,0 +1,25 @@
+body{
+    background-image: url(assets/pexels-photo-ArnieChou.jpeg);
+}
+
+
+.weatherdisplay{
+    display: flex;
+    flex-direction: column;
+    color: cornflowerblue;
+}
+
+#weather-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    font-size: xx-large;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
