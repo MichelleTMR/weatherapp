@@ -10,7 +10,7 @@ fetch(`/weather/${name}`)
     console.log(json)
 
     const weatherContainer = document.getElementById("weather-container")
-
+    weatherContainer.innerHTML = "" //this will empty the html div.. them will add js div with js tags
 
         const weatherDiv = document.createElement("div")
         const weatherCity = document.createElement("h1")
@@ -31,6 +31,7 @@ fetch(`/weather/${name}`)
         weatherDiv.classList.add("weatherdisplay")
 
         weatherContainer.appendChild(weatherDiv)
+
 
 })
 .catch((error) => {
